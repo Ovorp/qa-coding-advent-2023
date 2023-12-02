@@ -36,7 +36,7 @@ def sumId(list):
     if cubeLimit(items):
       idList.append((id + 1))
 
-  return sum(idList)
+  return print('the sum is', sum(idList))
 
 
 def cubeLimit(list):
@@ -48,5 +48,4 @@ def cubeLimit(list):
   return True
 
 
-games = createDataStructure(input)
-print('the sum is', sumId(games))
+sumId(createDataStructure(input))
